@@ -1,8 +1,7 @@
 # Import and configure modules
 """
 
-#importing os library, provides interacting with the system
-import os
+#importing library
 
 import matplotlib.pyplot as plt
 import matplotlib as mpl
