@@ -9,7 +9,7 @@ def readme():
 
 
 setup(name='mirrorball',
-      version='0.1.2',
+      version='0.1.3',
       description='A python package to use neural networks to combine the content of an image with the style of another image',
       url='https://github.com/ParishaKB/MirrorballPackage',
       author='Parisha Bhatia, Soham Sharangpani, Shreyansh Bardia, Ujwal Shah,Aniket Modi,Gaurav Ankalagi',
@@ -22,14 +22,12 @@ setup(name='mirrorball',
       zip_safe=False,
       install_requires=[ 
           "librosa>=0.8.0",
-          "matplotlib>=3.3.2"
-          "tensorflow>=2.2.0",
-          "numpy>=1.19.1",
-          "pandas>=1.0.4",
+          "matplotlib>=3.2.2"
+          "tensorflow>=2.3.0",
+          "numpy>=1.18.5",
+          "pandas>=1.1.3",
           "Image>=8.0.0",
-          "keras>=2.3.1",
-          "time>=1.2.0",
-          "functools>=3.5.1",
+          "keras>=2.4.3",
           "importlib-resources>=3.2.0"
       ]
       )
