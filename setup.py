@@ -11,7 +11,7 @@ def readme():
 setup(name='mirrorball',
       version='0.1.5',
       description='A python package to use neural networks to combine the content of an image with the style of another image',
-      url='https://github.com/ParishaKB/MirrorballPackage/blob/main/mirrorball/mirrorball.py',
+      url='https://github.com/ParishaKB/MirrorballPackage',
       author='Parisha Bhatia, Soham Sharangpani, Shreyansh Bardia, Ujwal Shah,Aniket Modi,Gaurav Ankalagi',
       license='MIT',
       include_package_data=True,
