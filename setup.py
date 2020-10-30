@@ -8,7 +8,7 @@ def readme():
         return f.read()
 
 setup(name='mirrorball',
-      version='0.1.8',
+      version='0.1.9',
       description='A python package to use neural networks to combine the content of an image with the style of another image',
       long_description= readme(),
       url='https://github.com/ParishaKB/mirrorball',
