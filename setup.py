@@ -3,14 +3,14 @@ import setuptools
 from setuptools import setup
 
 
-def readme():
-    with open('README.md') as f:
-        return f.read()
+with open('README.md) as f:
+    readme = f.read()
 
 
 setup(name='mirrorball',
-      version='0.1.7',
+      version='0.1.8',
       description='A python package to use neural networks to combine the content of an image with the style of another image',
+      long_description= readme()
       url='https://github.com/ParishaKB/mirrorball',
       author='Parisha Bhatia, Soham Sharangpani, Shreyansh Bardia, Ujwal Shah,Aniket Modi,Gaurav Ankalagi',
       license='MIT',
