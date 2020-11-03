@@ -3,7 +3,7 @@
 Mirrorball is an artistic package which aims at combining two images using the power of neural networks. The package picks up the style from one image and adds it on the content layer, creating new images having the style and looks with primitive design of the primary content image. The package can combine a variety of images ranging from Portraits to Landscapes, and from natural paintings to modern art.  The package can also be used to check the authenticity of images, by checking the error while running the program. 
 The functions that a user accesses here are: 
 
-1)	run_style_transfer (content_path, 
+* run_style_transfer (content_path, 
                                     style_path, 
                                     num_iterations = 1000, 
                                     content_weight = 1000, 
@@ -15,7 +15,7 @@ content_weight: How much originality of the primary/content image do you wish to
 style_weight: How much of the style do you wish to take from the style image. Default value is 0.01   
 The function gives 2 outputs: best image, and least loss. You need to add 2 variables before running this function to store the outputs.
 
-2)	show_results (best_img, 
+*	show_results (best_img, 
                            content_path, 
                            style_path, 
                            show_large_final=True)
@@ -24,7 +24,7 @@ content_path: Input the path of your primary/content image
 style_path: Input the path of the image whose style you want to apply on the primary/content image
 show_large_final: To display the best_img. Default value is True.
 
-3)	return_image(best_img)
+*	return_image(best_img)
 best_img: The best image formed by the neural network, as stored from the above function.
 The function converts the numpy array to image and also saves it as a .jpg file, which the user can download for further use.
 
