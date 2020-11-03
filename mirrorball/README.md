@@ -36,17 +36,17 @@ File path of image in .jpeg, .png, .jpg format. The image background shouldn’t
 
 The libraries required to function smoothly are all open source.
   
-* 1)Matplotlib: Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+* Matplotlib: Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
   
-* 2)Tensorflow: TensorFlow is a Python library for fast numerical computing created and released by Google. It is a foundation library that can be used to create Deep Learning models directly or by using wrapper libraries that simplify the process built on top of TensorFlow
+* Tensorflow: TensorFlow is a Python library for fast numerical computing created and released by Google. It is a foundation library that can be used to create Deep Learning models directly or by using wrapper libraries that simplify the process built on top of TensorFlow
   
-* 3)Numpy: NumPy is a library for the Python programming language, adding support for large,            multi-dimensional arrays and matrices, along with a large collection of high-level mathematical  functions to operate on these arrays.
+* Numpy: NumPy is a library for the Python programming language, adding support for large,            multi-dimensional arrays and matrices, along with a large collection of high-level mathematical  functions to operate on these arrays.
   
-* 4)Pandas: Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
+* Pandas: Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
   
-* 5)Image: Python Imaging Library is a free and open-source additional library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats.
+* Image: Python Imaging Library is a free and open-source additional library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats.
   
-* 6)Keras: Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result as fast as possible is key to doing good research.
+* Keras: Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result as fast as possible is key to doing good research.
 
 ### Installation
 
@@ -81,8 +81,9 @@ Replace the $ pip3 by !pip for google colab users.
   
 ### Development
 
-Developed by: “Parisha Bhatia, Soham Sharangpani, Shreyansh Bardia, Ujwal Shah,Aniket Modi,Gaurav Ankalagi” 
+Developed by: [Parisha Bhatia], [Soham Sharangpani], [Shreyansh Bardia], [Ujwal Shah],[Aniket Modi],[Gaurav Ankalagi]
 
-License: MIT
+# License
+MIT
 
 Visit  GitHub repository “mirrorball” for more details 
