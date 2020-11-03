@@ -326,7 +326,7 @@ class sc_filter:
       self.__plt.title('Output Image')
       self.__plt.show() 
 
-
+  @classmethod
   def return_image(self,best_img):
     output = self.__Image.fromarray(best_img)
     output.save("output.jpg")
