@@ -50,13 +50,18 @@ Installation:
 	Use the following command for jupyter notebooks (if already downloaded, need not be repeated)
   
 $ pip3 install matplotlib
+
 $ pip3 install tensorflow 
+
 $ pip3 install numpy
+
 $ pip3 install pandas
+
 $ pip3 install image
+
 $pip3 install keras
 
-$pip3 install mirrorball
+**$pip3 install mirrorball**
   
 Replace the $ pip3 by !pip for google colab users.
   
