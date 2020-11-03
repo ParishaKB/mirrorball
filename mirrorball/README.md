@@ -69,8 +69,6 @@ Development
 
 Developed by: “Parisha Bhatia, Soham Sharangpani, Shreyansh Bardia, Ujwal Shah,Aniket Modi,Gaurav Ankalagi” 
 
-License
-
-MIT
+License: MIT
 
 Visit  GitHub repository “mirrorball” for more details 
