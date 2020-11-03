@@ -66,9 +66,11 @@ $pip3 install keras
 Replace the $ pip3 by !pip for google colab users.
   
 Development
+
 Developed by: “Parisha Bhatia, Soham Sharangpani, Shreyansh Bardia, Ujwal Shah,Aniket Modi,Gaurav Ankalagi” 
 
-License:
+License
+
 MIT
 
 Visit  GitHub repository “mirrorball” for more details 
