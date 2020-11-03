@@ -1,4 +1,4 @@
-Mirrorball
+**Mirrorball**
 
 Mirrorball is an artistic package which aims at combining two images using the power of neural networks. The package picks up the style from one image and adds it on the content layer, creating new images having the style and looks with primitive design of the primary content image. The package can combine a variety of images ranging from Portraits to Landscapes, and from natural paintings to modern art.  The package can also be used to check the authenticity of images, by checking the error while running the program. 
 The functions that a user accesses here are: 
