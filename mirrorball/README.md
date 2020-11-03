@@ -1,4 +1,4 @@
-#Mirrorball
+# Mirrorball
 
 Mirrorball is an artistic package which aims at combining two images using the power of neural networks. The package picks up the style from one image and adds it on the content layer, creating new images having the style and looks with primitive design of the primary content image. The package can combine a variety of images ranging from Portraits to Landscapes, and from natural paintings to modern art.  The package can also be used to check the authenticity of images, by checking the error while running the program. 
 The functions that a user accesses here are: 
@@ -28,11 +28,11 @@ show_large_final: To display the best_img. Default value is True.
 best_img: The best image formed by the neural network, as stored from the above function.
 The function converts the numpy array to image and also saves it as a .jpg file, which the user can download for further use.
 
-#Prerequisites
+# Prerequisites
 
 File path of image in .jpeg, .png, .jpg format. The image background shouldn’t be transparent. 
 
-###Dependencies
+### Dependencies
 
 The libraries required to function smoothly are all open source.
   
@@ -48,7 +48,7 @@ The libraries required to function smoothly are all open source.
   
 * 6)Keras: Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result as fast as possible is key to doing good research.
 
-###Installation
+### Installation
 
 Use the following commands for jupyter notebooks (if libraries already exists, need not be re-installed)
 
