@@ -81,7 +81,7 @@ Replace the $ pip3 by !pip for google colab users.
   
 ### Development
 
-Developed by: [Parisha Bhatia], [Soham Sharangpani], [Shreyansh Bardia], [Ujwal Shah],[Aniket Modi],[Gaurav Ankalagi]
+Developed by: "Parisha Bhatia, Soham Sharangpani, Shreyansh Bardia, Ujwal Shah, Aniket Modi, Gaurav Ankalagi"
 
 # License
 MIT
