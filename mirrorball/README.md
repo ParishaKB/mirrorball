@@ -28,11 +28,13 @@ show_large_final: To display the best_img. Default value is True.
 best_img: The best image formed by the neural network, as stored from the above function.
 The function converts the numpy array to image and also saves it as a .jpg file, which the user can download for further use.
 
-Prerequisites: 
+<ins>Prerequisites: </ins> 	
+
 File path of image in .jpeg, .png, .jpg format. The image background shouldn’t be transparent. 
 
-Dependencies:
-	The libraries required to function smoothly are all open source.
+<ins>Dependencies:</ins> 	
+
+The libraries required to function smoothly are all open source.
   
 1)Matplotlib: Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
   
@@ -46,8 +48,9 @@ Dependencies:
   
 6)Keras: Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result as fast as possible is key to doing good research.
 
-Installation: 
-	Use the following command for jupyter notebooks (if already downloaded, need not be repeated)
+<ins>Installation:</ins>
+
+Use the following commands for jupyter notebooks (if libraries already exists, need not be re-installed)
   
 $ pip3 install matplotlib
 
@@ -65,7 +68,7 @@ $pip3 install keras
   
 Replace the $ pip3 by !pip for google colab users.
   
-Development
+<ins>Development: </ins>
 
 Developed by: “Parisha Bhatia, Soham Sharangpani, Shreyansh Bardia, Ujwal Shah,Aniket Modi,Gaurav Ankalagi” 
 
