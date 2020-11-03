@@ -4,7 +4,7 @@ from setuptools import setup
 
 
 def readme():
-    with open('README.md',encoding = "utf8") as f:
+    with open('README.md') as f:
         return f.read()
 
 setup(name='mirrorball',
