@@ -1,4 +1,4 @@
-**Mirrorball**
+#Mirrorball
 
 Mirrorball is an artistic package which aims at combining two images using the power of neural networks. The package picks up the style from one image and adds it on the content layer, creating new images having the style and looks with primitive design of the primary content image. The package can combine a variety of images ranging from Portraits to Landscapes, and from natural paintings to modern art.  The package can also be used to check the authenticity of images, by checking the error while running the program. 
 The functions that a user accesses here are: 
@@ -28,47 +28,58 @@ show_large_final: To display the best_img. Default value is True.
 best_img: The best image formed by the neural network, as stored from the above function.
 The function converts the numpy array to image and also saves it as a .jpg file, which the user can download for further use.
 
-<ins>Prerequisites: </ins> 	
+#Prerequisites
 
 File path of image in .jpeg, .png, .jpg format. The image background shouldn’t be transparent. 
 
-<ins>Dependencies:</ins> 	
+###Dependencies
 
 The libraries required to function smoothly are all open source.
   
-1)Matplotlib: Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+* 1)Matplotlib: Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
   
-2)Tensorflow: TensorFlow is a Python library for fast numerical computing created and released by Google. It is a foundation library that can be used to create Deep Learning models directly or by using wrapper libraries that simplify the process built on top of TensorFlow
+* 2)Tensorflow: TensorFlow is a Python library for fast numerical computing created and released by Google. It is a foundation library that can be used to create Deep Learning models directly or by using wrapper libraries that simplify the process built on top of TensorFlow
   
-3)Numpy: NumPy is a library for the Python programming language, adding support for large,            multi-dimensional arrays and matrices, along with a large collection of high-level mathematical  functions to operate on these arrays.
+* 3)Numpy: NumPy is a library for the Python programming language, adding support for large,            multi-dimensional arrays and matrices, along with a large collection of high-level mathematical  functions to operate on these arrays.
   
-4)Pandas: Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
+* 4)Pandas: Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
   
-5)Image: Python Imaging Library is a free and open-source additional library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats.
+* 5)Image: Python Imaging Library is a free and open-source additional library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats.
   
-6)Keras: Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result as fast as possible is key to doing good research.
+* 6)Keras: Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result as fast as possible is key to doing good research.
 
-<ins>Installation:</ins>
+###Installation
 
 Use the following commands for jupyter notebooks (if libraries already exists, need not be re-installed)
-  
+
+```sh
 $ pip3 install matplotlib
+```
 
+```sh
 $ pip3 install tensorflow 
+```
 
+```sh
 $ pip3 install numpy
+```
 
+```sh
 $ pip3 install pandas
-
+```
+```sh
 $ pip3 install image
-
+```
+```sh
 $pip3 install keras
-
-**$pip3 install mirrorball**
+```
+```sh
+$pip3 install mirrorball
+```
   
 Replace the $ pip3 by !pip for google colab users.
   
-<ins>Development: </ins>
+### Development
 
 Developed by: “Parisha Bhatia, Soham Sharangpani, Shreyansh Bardia, Ujwal Shah,Aniket Modi,Gaurav Ankalagi” 
 
